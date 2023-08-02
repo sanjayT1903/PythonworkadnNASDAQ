@@ -1,7 +1,7 @@
 import gspread
 import pandas as pd
 
-SHEET_ID = '1HUhPNO8fKnsqSvO43Lgtt8a7gdbfXYdYNjaNvdPnAEc'
+SHEET_ID = '//not here'
 SHEET_NAME = 'Sheet1'
 gc = gspread.service_account('creds.json')
 spreadsheet = gc.open_by_key(SHEET_ID)
